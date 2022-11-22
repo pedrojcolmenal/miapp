@@ -1,15 +1,11 @@
 import './App.scss';
 import Container from './components/Container';
-import FormToDo from './components/FormToDo';
-import TaskList from './components/TaskList';
+import Checkbox from './components/Checkbox';
 
 function App() {
   return (
     <div className="App">
-      <div>
-        <FormToDo/>
-        <TaskList/>
-      </div>
+      <Container/>
     </div>
   );
 }
